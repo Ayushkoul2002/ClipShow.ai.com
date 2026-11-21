@@ -74,16 +74,17 @@ ClipShow.ai includes a built-in browser-based workstation:
 
 ## Comparison Matrix
 
-| Capability | ClipShow.ai | Opus Clip | Munch / Klap | Traditional Editors |
-| :--- | :---: | :---: | :---: | :---: |
-| **Pricing** | **100% Free & Open-Source** | $29 - $99 / mo | $49 - $149 / mo | $20 - $50 / mo |
-| **Max Stream Duration** | **40+ Hours** | ~1 to 2 Hours | ~1 to 2 Hours | Manual Scrubbing |
-| **Hardware Requirement** | **Intel CPU (8GB RAM, No GPU)** | Cloud Only | Cloud Only | High-End GPU Rig |
-| **Signal Modalities** | **Heatmap + Chat + Audio + Visual** | Text/Transcript | Text/Transcript | Manual Markers |
-| **Time to First Clip** | **Sub-20 Seconds (SSE)** | 5 - 15 Minutes | 10 - 20 Minutes | Hours |
+| Capability | ClipShow.ai | Opus Clip | Klap / Munch Studio | Traditional Editors |
+| :--- | :--- | :--- | :--- | :--- |
+| **Pricing & Quotas** | **100% Free & Unlimited Hours** | $0–$29/mo (Capped at 1–5 hrs/mo) | $29–$398/mo (Clip/minute caps) | $20–$50/mo |
+| **Max Stream Duration** | **40+ Hours (No Upload Wait)** | Up to 10 Hours (Cloud Upload) | Up to 3 Hours | Manual Scrubbing |
+| **Hardware Requirement** | **Intel CPU (8 GB RAM, No GPU)** | Cloud GPU Servers | Cloud GPU Servers | High-End GPU Rig |
+| **Signal Modalities** | **Heatmap + Live Chat + Audio + Visual** | Visual + Audio + Transcript | Transcript + Audio/Visual | Manual Markers |
+| **40h Anti-Clustering** | **Hierarchical Stratified NMS** | Standard Virality Ranking | Standard AI Ranking | Manual Timeline |
+| **Time to First Clip** | **Sub-20 Seconds (Live SSE)** | 5–15 Minutes (Queue + Upload) | 10–20 Minutes | Hours |
 | **Privacy & Sovereignty** | **100% Local / Self-Hosted** | Closed Cloud | Closed Cloud | Local |
-| **Built-in 9:16 Pro Editor** | **Yes (Full Multi-Track)** | Basic Web Preview | Basic Web Preview | Yes (Desktop Only) |
-| **License** | **MIT License** | Proprietary | Proprietary | Proprietary |
+| **Built-in 9:16 Studio** | **Yes (Multi-Track + Split-Screen)** | Web Editor + XML Export | Web Editor | Full NLE (Manual Setup) |
+| **License** | **MIT License (Open Source)** | Proprietary SaaS | Proprietary SaaS | Proprietary Software |
 
 ---
 
