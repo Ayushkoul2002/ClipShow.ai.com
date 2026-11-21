@@ -30,7 +30,7 @@
 
 ## The Mission
 
-Commercial highlight tools (such as Opus Clip, Munch, Klap, and Vidyo) charge steep monthly subscriptions, enforce strict upload duration limits, crash on multi-hour gaming streams, and lock your content into proprietary cloud silos.
+Commercial highlight tools (such as Opus Clip, Munch, Klap, and Quso.ai) charge steep monthly subscriptions, enforce strict upload duration limits, crash on multi-hour gaming streams, and lock your content into proprietary cloud silos.
 
 **ClipShow.ai is built to disrupt this model.**
 
@@ -68,7 +68,7 @@ ClipShow.ai includes a built-in browser-based workstation:
 * **Interactive Pan & Zoom:** Drag-and-drop viewport adjustments on individual video slots directly inside the composition canvas.
 * **Word-by-Word Kinetic Bounce Subtitles:** Real-time subtitle generator with custom color themes, stroke weights, active word glow, and bounce physics.
 * **Multi-Track Timeline:** Dedicated tracks for video clips, audio tracks, text overlays, and subtitle cards with trimming, snapping, and undo/redo history.
-* **Instant MP4 Export:** Produces clean, web-optimized H.264 `yuv420p` vertical videos with AAC stereo audio and hardware acceleration.
+* **Instant MP4 Export:** Produces clean, web-optimized H.264 `yuv420p` vertical videos with AAC stereo audio and CPU-optimized libx264 encoding.
 
 ---
 
@@ -103,7 +103,7 @@ ClipShow.ai includes a built-in browser-based workstation:
                 │       └── Win: 600s Local Window | Zero-Variance NaN Guard
                 │
                 ├──> Stage 3: Stratified Hierarchical NMS Engine
-                │       ├── Dynamic Exclusion Radius (T_video / (2 * N_target))
+                │       ├── Dynamic Exclusion Radius: max(90s, (T_video / N_target) * 0.35)
                 │       └── Chapter-Balanced Anchor Allocation
                 │
                 ├──> Stage 4: Frame-Accurate Boundary Snapping & Dual Muxing
